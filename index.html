@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors with Compose</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors with Compose</h1>
+    <h2>RESET THE TOUR</h2>
+    <div class="scores">
+      <p id="Computer-score">COMPUTER SCORE: <span style="font-size: 30px;" id="computer-result-score">0</span></p>
+      <p id="player-score">PLAYER SCORE: <span style="font-size: 30px;" id="player-result-score">0</span></p>
+    </div>
+    <p id="result"></p>
+    <div id="computerDisplay"><img id="imgComputer"  src="pics/rock.png"></div>
+    <div id="playerDisplay"><img id="imgPlayer"  src="pics/rock.png"></div>
+    <span id="vs">VS</span>
+
+    
+    <p id="choose">Choose your move, rock paper or scissors?</p>
+    <div class="choices">
+      <button onclick="playGame('rock')">Rock</button>
+      <button onclick="playGame('paper')">Paper</button>
+      <button onclick="playGame('scissors')">Scissors</button>
+
+
+      <script src="main.js"></script>
+
+  </body>
+</html>
